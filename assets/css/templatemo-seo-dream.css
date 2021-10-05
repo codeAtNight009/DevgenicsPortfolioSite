@@ -1557,8 +1557,8 @@ form#contact textarea {
   width: 100%;
   min-width: 100%;
   max-width: 100%;
-  max-height: 180px;
-  min-height: 140px;
+  max-height: 260px;
+  min-height: 220px;
   height: 140px;
   border-radius: 5px;
   background-color: transparent;
