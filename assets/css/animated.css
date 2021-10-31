@@ -3156,3 +3156,24 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation-name: slideOutUp;
           animation-name: slideOutUp;
 }
+
+/* Hover over makes bold */
+nav {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  /* 
+  if we did this instead of the template it would be a problem:
+  grid-auto-flow: column;
+  */
+  font: 120% system-ui;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  font-weight: 900;
+}
